@@ -10,7 +10,7 @@ git "https://github.com/refinery/refinerycms", branch: "feature/rails-5" do
   end
 end
 
-gem 'refinerycms-settings', git: "https://github.com/sjoulbak/refinerycms-settings", branch: "feature/rails-5"
+gem 'refinerycms-settings', git: "https://github.com/peterberkenbosch/refinerycms-settings", branch: "feature/rails5"
 
 group :test do
   gem 'pry'
