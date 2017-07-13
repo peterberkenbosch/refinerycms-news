@@ -2,13 +2,15 @@ source "https://rubygems.org"
 
 gemspec
 
-git "https://github.com/refinery/refinerycms", branch: "master" do
+git "https://github.com/refinery/refinerycms", branch: "feature/rails-5" do
   gem 'refinerycms'
 
   group :development, :test do
     gem 'refinerycms-testing'
   end
 end
+
+gem 'refinerycms-settings', git: "https://github.com/sjoulbak/refinerycms-settings", branch: "feature/rails-5"
 
 group :test do
   gem 'pry'
